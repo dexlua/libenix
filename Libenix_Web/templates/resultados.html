@@ -6,13 +6,4 @@
 {{ r[4] }} | {{ r[5] }}% | {{ r[6] }}
 </p>
 
-<td>
-    {% if r[1] > 75 %}
-        🟢 Aprobado
-    {% elif r[1] > 50 %}
-        🟡 Estable
-    {% else %}
-        🔴 Reprobado
-    {% endif %}
-</td>
 {% endfor %}
